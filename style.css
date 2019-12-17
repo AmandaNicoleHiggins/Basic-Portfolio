@@ -15,12 +15,12 @@ body {
   .header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
-    border-bottom: 1px lightgray solid;
+    border-bottom: 1px #cccccc solid;
     overflow: hidden;
   }
 
   .Name {
-      background-color: teal;
+      background-color: #4aaaa5;
       padding: 5px;
       width: 25%;
       float: left;
@@ -79,7 +79,7 @@ body {
       margin-right: 15%;
       margin-top: 5%;
       margin-bottom: 5%;
-      border: 1px lightgrey solid;
+      border: 1px #dddddd solid;
   }
 
   h2 {
@@ -95,4 +95,14 @@ body {
 
   .bio-pic {
       float: left;
+      padding: 10px;
+  }
+
+  .footer {
+      background-color: #666666;
+      height: 60px;
+      width: 100%;
+      position: fixed;
+      bottom: 0px;
+      border-top: 6px #4aaaa5 solid;
   }
