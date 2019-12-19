@@ -9,7 +9,7 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: #333;
-    background: #ffffff;
+    background-image: url("https://i.imgur.com/0ifQmvB.png");
   }
   
   .header {
@@ -17,6 +17,7 @@ body {
     width: 100%;
     border-bottom: 1px #cccccc solid;
     overflow: hidden;
+    background-color: #ffffff;
   }
 
   .Name {
@@ -80,10 +81,11 @@ body {
       margin-top: 5%;
       margin-bottom: 5%;
       border: 1px #dddddd solid;
+      background-color: #ffffff;
   }
 
   h2 {
-      color: teal;
+      color: #4aaaa5;
       font-size: 24px;
       padding: 20px;
   }
@@ -106,3 +108,85 @@ body {
       bottom: 0px;
       border-top: 6px #4aaaa5 solid;
   }
+
+  .portfolio {
+    width: 960px;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px #dddddd solid;
+    background-color: #ffffff;
+    position: relative;
+  }
+
+  .p1{
+      width: 200px;
+      height: 150px;
+      background-image: url(https://place-hold.it/200x150/);
+      margin: 50px;
+      position: absolute;
+
+  }
+
+  .p2{
+    width: 200px;
+    height: 150px;
+    background-image: url(https://place-hold.it/200x150/);
+    margin: 50px;
+    position: absolute;
+}
+
+.p3{
+    width: 200px;
+    height: 150px;
+    background-image: url(https://place-hold.it/200x150/);
+      margin: 50px;
+}
+
+.p4{
+    width: 200px;
+    height: 150px;
+    background-image: url(https://place-hold.it/200x150/);
+    margin: 50px;
+      
+}
+
+.p5{
+    width: 200px;
+    height: 150px;
+    background-image: url(https://place-hold.it/200x150/);
+    margin: 50px;
+      
+}
+
+#description1 {
+    background-color: #4aaaa5;
+    color: white;
+
+}
+
+#description2 {
+    background-color: #4aaaa5;
+    color: white;
+    
+}
+
+#description3 {
+    background-color: #4aaaa5;
+    color: white;
+    
+}
+
+#description4 {
+    background-color: #4aaaa5;
+    color: white;
+    
+}
+
+#description5 {
+    background-color: #4aaaa5;
+    color: white;
+    
+}
