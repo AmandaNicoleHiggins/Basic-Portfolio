@@ -88,6 +88,7 @@ body {
       color: #4aaaa5;
       font-size: 24px;
       padding: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   p {
@@ -111,7 +112,7 @@ body {
 
   .portfolio {
     width: 960px;
-    height: auto;
+    height: 700px;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 5%;
@@ -133,9 +134,11 @@ body {
   .p2{
     width: 200px;
     height: 150px;
-    background-image: url(https://place-hold.it/200x150/);
     margin: 50px;
+    background-image: url(https://place-hold.it/200x150/);
     position: absolute;
+    top: 15%;
+    right: 390px;
 }
 
 .p3{
@@ -143,6 +146,9 @@ body {
     height: 150px;
     background-image: url(https://place-hold.it/200x150/);
       margin: 50px;
+      position: absolute;
+      top: 40%;
+      left: 0px;
 }
 
 .p4{
@@ -150,6 +156,9 @@ body {
     height: 150px;
     background-image: url(https://place-hold.it/200x150/);
     margin: 50px;
+    position: absolute;
+    top: 40%;
+    right: 390px;
       
 }
 
@@ -158,6 +167,9 @@ body {
     height: 150px;
     background-image: url(https://place-hold.it/200x150/);
     margin: 50px;
+    position: absolute;
+    top: 65%;
+    left: 0px;
       
 }
 
@@ -189,4 +201,33 @@ body {
     background-color: #4aaaa5;
     color: white;
     
+}
+
+#form {
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+    padding: 20px;
+    margin: 0;
+    align-items: flex-start;
+    color: gray;
+}
+
+#contactme {
+    padding: 0px;
+}
+
+#name {
+    width: 900px;
+}
+
+#message {  
+    width: 900px;
+    height: 200px;
+}
+
+#button { 
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 20px 10px 20px;
 }
