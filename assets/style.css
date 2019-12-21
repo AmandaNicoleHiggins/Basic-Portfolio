@@ -47,7 +47,6 @@ body {
 
   a {
     color: grey;
-    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     float: right;
     text-decoration: none;
@@ -55,23 +54,20 @@ body {
   
   #about {
       padding: 20px;
+      font-size: 16px;
   }
 
   #portfolio {
       padding: 20px;
+      font-size: 16px;
   }
 
   #contact {
       padding: 20px;
+      font-size: 16px;
   }
 
-  hr {
-    display: inline;
-    size: 1px;
-    margin-left: 2px;
-    margin-right: 10px;
-    overflow: hidden;
-    color: #b5b5b5;     
+  hr {  
   }
  
   .about-me {
@@ -79,26 +75,29 @@ body {
       margin-left: 15%;
       margin-right: 15%;
       margin-top: 5%;
-      margin-bottom: 5%;
+      margin-bottom: 10%;
       border: 1px #dddddd solid;
       background-color: #ffffff;
   }
 
   h2 {
       color: #4aaaa5;
-      font-size: 24px;
-      padding: 20px;
+      font-size: 34px;
+      padding: 10px 30px 10px 30px;
       font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   p {
-      padding: 20px;
-      font-size: 14px;
+      padding: 30px;
+      font-size: 18px;
+      color: gray;
+      line-height: 24px;
   }
 
   .bio-pic {
       float: left;
-      padding: 10px;
+      padding: 0px 20px 20px 0px;
+      width: 200px;
   }
 
   .footer {
