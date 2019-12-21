@@ -115,7 +115,7 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     border: 1px #dddddd solid;
     background-color: #ffffff;
     position: relative;
@@ -124,7 +124,7 @@ body {
   .p1{
       width: 200px;
       height: 150px;
-      background-image: url(https://place-hold.it/200x150/);
+      background-image: url(http://lorempixel.com/200/150/);
       margin: 50px;
       position: absolute;
 
@@ -134,16 +134,16 @@ body {
     width: 200px;
     height: 150px;
     margin: 50px;
-    background-image: url(https://place-hold.it/200x150/);
+    background-image: url(http://lorempixel.com/200/150/);
     position: absolute;
-    top: 15%;
+    top: 16%;
     right: 390px;
 }
 
 .p3{
     width: 200px;
     height: 150px;
-    background-image: url(https://place-hold.it/200x150/);
+    background-image: url(http://lorempixel.com/200/150/);
       margin: 50px;
       position: absolute;
       top: 40%;
@@ -153,7 +153,7 @@ body {
 .p4{
     width: 200px;
     height: 150px;
-    background-image: url(https://place-hold.it/200x150/);
+    background-image: url(http://lorempixel.com/200/150/);
     margin: 50px;
     position: absolute;
     top: 40%;
@@ -164,7 +164,7 @@ body {
 .p5{
     width: 200px;
     height: 150px;
-    background-image: url(https://place-hold.it/200x150/);
+    background-image: url(http://lorempixel.com/200/150/);
     margin: 50px;
     position: absolute;
     top: 65%;
@@ -172,35 +172,16 @@ body {
       
 }
 
-#description1 {
+#description {
     background-color: #4aaaa5;
     color: white;
+    margin-top: 40%;
+    text-align: center;
+    font-family: serif;
+    padding: 5px;
 
 }
 
-#description2 {
-    background-color: #4aaaa5;
-    color: white;
-    
-}
-
-#description3 {
-    background-color: #4aaaa5;
-    color: white;
-    
-}
-
-#description4 {
-    background-color: #4aaaa5;
-    color: white;
-    
-}
-
-#description5 {
-    background-color: #4aaaa5;
-    color: white;
-    
-}
 
 #form {
     font-size: 12px;
